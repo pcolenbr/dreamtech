@@ -264,6 +264,17 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+@media (max-width: 767px) {
+  .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .intro-text .btn-xl {
+    padding: 15px 25px;
+  }
+}
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 240px;
