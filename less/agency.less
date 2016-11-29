@@ -106,7 +106,6 @@ h1, h2, h3, h4, h5, h6 {
         color: white;
         font-size: 25px;
         padding: 2px 10px;
-        
         &:hover,
         &:focus {
             background-color: @theme-primary;
@@ -205,6 +204,20 @@ header {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .intro-heading {
+        .heading-font;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .intro-text {
+        .btn-xl {
+            padding: 15px 25px;
         }
     }
 }
