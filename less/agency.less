@@ -81,7 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-custom {
-    background-color: @gray-darker;
+    background-color: @light-blue;
+    padding: 10px 0;
     border-color: transparent;
 
     .navbar-brand {
@@ -103,7 +104,9 @@ h1, h2, h3, h4, h5, h6 {
         border-color: @theme-primary;
         .heading-font;
         color: white;
-        font-size: 12px;
+        font-size: 25px;
+        padding: 2px 10px;
+        
         &:hover,
         &:focus {
             background-color: @theme-primary;
@@ -747,4 +750,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+section {
+    overflow: hidden;
 }
